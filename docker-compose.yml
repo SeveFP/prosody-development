@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    prosody_development:
+        container_name: prosody_development
+        ports:
+            - '5222:5222'
+            - '5280:5280'
+        build:
+          context: ./
+          dockerfile: Dockerfile
