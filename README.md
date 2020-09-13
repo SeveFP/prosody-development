@@ -28,3 +28,6 @@ User2--------------------
 address: bob@example.org
 password: 1234
 ```
+##### Settings for [Conversejs](https://github.com/conversejs/converse.js)
+Replace the default value for [`bosh_service_url`](https://conversejs.org/docs/html/configuration.html#bosh-service-url) with:  
+`bosh_service_url: 'http://example.org:5280/http-bind/'`
