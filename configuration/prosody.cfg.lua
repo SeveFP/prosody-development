@@ -94,6 +94,7 @@ modules_disabled = {
 -- Allow connections from localhost to example.org
 cross_domain_bosh = true
 consider_bosh_secure = true
+consider_websocket_secure = true
 
 -- Disable account creation by default, for security
 -- For more information see https://prosody.im/doc/creating_accounts
